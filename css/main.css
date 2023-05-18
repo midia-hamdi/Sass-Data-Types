@@ -18,3 +18,7 @@
   margin: 10px 15px 0 20px;
   font-family: 'Raleway', 'Dosis', 'Lato';
   border: 1px solid wheat; }
+
+h1 {
+  color: red;
+  background-color: green; }

@@ -26,3 +26,20 @@
     font-family: 'Raleway', 'Dosis', 'Lato';
     border: 1px solid wheat;
 }
+
+//MAPS
+$colors: (
+    primary: red,
+    secondary: green,
+    tertiary: blue,
+);
+
+h1 {
+    color: map-get($colors, primary);
+    background-color: map-get($colors, secondary);
+}
+
+//BOOLEANS
+//true, false
+
+//null meens nothing
