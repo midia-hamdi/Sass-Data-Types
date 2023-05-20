@@ -55,4 +55,17 @@ h2{
     background-#{$c}: gray;
 }
 
+// FOR LOOP----------------------------------------------------
+$colors: (
+  1: red,
+  2: green,
+  3: blue,
+  4: orange,
+);
 
+
+@for $i from 1 through 4 {
+    .paragraph-#{$i} {
+        background-color: map-get($colors, $i);
+    }
+}
